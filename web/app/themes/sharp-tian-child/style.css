@@ -1,0 +1,75 @@
+/*
+Theme Name: Sharp Tian Child
+Theme URI: https://www.inverstheme.com/theme/sharp-tian-pro/
+Template: sharp-tian
+Author: inverstheme
+Author URI: https://www.inverstheme.com/
+Description: Sharp tian is a clean, modern, user friendly, responsive and highly customizable WordPress Theme. you’ll easily find the design of this theme impressive and suitable for your Website. This sharp tian WordPress theme, carries an abundance of crucial features and functionalities. For instance, featured slider, featured Section, About Section, Our Portfolio, Our team Section, Testimonial Slider, Our Services, Our Sponsors, Sticky Header, Social Information, Sidebar, Excerpt Options, and many more. All of these highly customizable features and sections are completely responsive and absolutely easy to customize.
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0.6.1663271668
+Updated: 2022-09-15 19:54:28
+
+*/
+
+/* Main colors */
+/* Red: #a4181b */
+
+/* Body */
+body {
+    margin: 0 !important;
+}
+
+/* Home */
+.home .sharp_tian_container_data {
+    display: none;
+}
+
+/* Header */
+.top_bar_info {
+    background-color: #a4181b !important;
+}
+.header_topbar_info {
+    padding: 24px 0px !important;
+}
+.site-branding {
+    display: flex; !important;
+    align-items: center !important;
+}
+.header_logo {
+    margin-left: 10px !important;
+}
+img.custom-logo {
+    width: 180px !important;
+    height: auto !important;
+}
+.top_bar_info .header_topbar_info .header_logo .site-title a {
+    font-size: 28px !important;
+}
+.email_info p {
+    text-transform: lowercase !important;
+}
+.email_data {
+    color: white !important;
+}
+.contact_data {
+    /*display: none !important;*/
+}
+.site-title a {
+    color: white !important;
+}
+
+/* Main menu */
+#primary-menu .menu-item.current_page_item {
+    border-bottom-color: #a4181b !important;
+}
+
+/* Footer */
+footer#colophon {
+    background-color: #a4181b !important;
+}
+footer#colophon a {
+    color: white !important;
+}
+footer#colophon .site-info {
+    color: white !important;
+}
